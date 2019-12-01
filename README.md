@@ -3,7 +3,12 @@ Advent of Code 2019
 
 https://adventofcode.com/
 
+Intended Advent of Code 2019 Node.js implementation
+A personal exercise to master node.js
+
 ---------------------------
+
+The following stands for Advent of Code "About":
 
 Hi! I'm Eric Wastl. I make Advent of Code. I hope you like it! I also made Vanilla JS, PHP Sadness, and lots of other things. You can find me on Twitter and GitHub.
 
