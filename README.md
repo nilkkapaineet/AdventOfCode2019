@@ -4,6 +4,9 @@ Advent of Code 2019
 https://adventofcode.com/
 
 Intended Advent of Code 2019 Node.js implementation
+
+The files are named as "dayXY.js" where X stands for given day and Y for Part 1 or 2
+
 A personal exercise to master node.js
 
 ---------------------------
