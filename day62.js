@@ -5,6 +5,8 @@ const pin = fs.readFileSync('puzzleinput.txt', 'utf-8')
 
 let objects = new Array()
 const line = pin.split('\n')
+
+// create a downwards linked list of orbitting objects
 for (let i=0; i<line.length; i++) {
   let orbits = line[i].split(')') // COM ) orbitting
   orbits[0] = orbits[0].trim()
@@ -45,6 +47,7 @@ for (let i=0; i<objects.length; i++) {
 }
 console.log("total orbits: " + totalOrbits)
 
+// measure the distance between your object and Santas object
 let routeYou = new Array()
 const youIndex = objects.findIndex(searchObj => searchObj.id == "YOU")
 let you = objects[youIndex]
