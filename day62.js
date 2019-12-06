@@ -1,5 +1,5 @@
 // Advent of Code 2019
-// Day 6.1
+// Day 6.2
 const fs = require('fs')
 const pin = fs.readFileSync('puzzleinput.txt', 'utf-8')
 
